@@ -1,0 +1,15 @@
+.mainPhotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 0 auto 100px;
+}
+.loadingMmodal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
